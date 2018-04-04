@@ -1,0 +1,114 @@
+ html {
+    font-family: Roboto,sans-serif;
+    color: black;
+    background-color: white;
+    margin: 0px;
+    height: 100%;
+}
+
+body {
+    max-width: 960px;
+    padding: 36px;
+    margin: 0px auto;
+}
+
+a {color: mediumseagreen }
+a:hover {color: blue !important;}
+a:active {color: red  !important;}
+
+.contentBlock {
+    width: 444px;
+    display: inline;
+    float: left;
+    margin-right: 36px;
+}
+
+.skillBlockBack {
+    background-color: #eee;
+    float: right;
+    display: inline-flex;
+    width: 20em;
+    height: 12px;
+    margin-top: 5px;
+}
+
+.skillBlock {
+    height: 100%;
+    position: relative;
+    float: left;
+    display: block;
+    background-color: mediumseagreen;
+}
+
+h3 {
+    font-weight: 800;
+    display: inline-flex;
+    color: black;
+    font-size: 36pt;
+    margin: 0px;
+}
+
+h2 {
+    font-weight: 700;
+    color: mediumseagreen;
+    font-size: 18pt;
+    margin: 0px;
+}
+
+h45 {
+    font-weight: 700;
+    color: black;
+    font-size: 18pt;
+    margin: 0px;
+}
+
+h1 {
+    font-weight: 700;
+    color: black;
+    font-size: 24pt;
+    margin: 0px;
+}
+
+h0 {
+    font-weight: 500;
+    color: mediumseagreen;
+    font-size: 12pt;
+    margin: 0px;
+}
+
+#nametag {
+    display: block;
+}
+
+.windowBorder {
+    position: fixed;
+    background-color: mediumseagreen;
+    overflow: hidden;
+}
+#windowBorderT {
+    height: 12px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#windowBorderL {
+    height: 100%;
+    width: 12px;
+    top: 0px;
+    left: 0px;
+}
+
+#windowBorderB {
+    height: 12px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+
+#windowBorderR {
+    height: 100%;
+    width: 12px;
+    top: 0px;
+    right: 0px;
+}
